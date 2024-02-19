@@ -1,0 +1,64 @@
+body {
+    overflow-x: hidden;
+}
+
+header img {
+    margin: 20px;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+
+}
+
+header>ul>li>a:hover {
+    color: rgb(207, 19, 19);
+}
+
+header>ul>li {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    position: relative;
+    top: -75px;
+    left: 600px;
+    font-family: sans-serif;
+}
+
+#img2 img {
+    position: relative;
+    top: -50px;
+    width: 1500px;
+    height: 550px;
+}
+
+#img3 img {
+    position: relative;
+    top: -300px;
+    left: 950px;
+    cursor: pointer;
+}
+
+
+#img4 img {
+    position: relative;
+    top: -200px;
+    left: 200px;
+    cursor: pointer;
+}
+
+#img5 img {
+    position: relative;
+    top: -510px;
+    left: 600px;
+
+}
